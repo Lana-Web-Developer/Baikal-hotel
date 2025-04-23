@@ -1,0 +1,350 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.min.css" />
+    <link rel="stylesheet" href="../app/scss/style.scss" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>Байкал</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header__inner">
+            <div class="logo">
+              <a class="logo__link" href="#"
+                ><img
+                  class="logo__link-img"
+                  src="img/logo/logo__corrected.webp"
+                  alt="-"
+              /></a>
+            </div>
+            <nav class="menu">
+              <button id="menuBtn" class="menu__button"></button>
+              <div id="additional-block" class="additional-block">
+                <ul id="menuList" class="list">
+                  <li><a class="main-link" href="#">Главная</a></li>
+                  <li><a href="#">О гостинице</a></li>
+                  <li><a href="#">Преимущества</a></li>
+                  <li><a href="#">Номера</a></li>
+                  <li><a href="#">Отзывы</a></li>
+                  <li><a class="callback-link" href="#">Обратный звонок</a></li>
+                </ul>
+                <div id="address" class="address">
+                  <div class="address__main">
+                    <p>Адрес:</p>
+                    <p>Кайдаловская ул., 37, Чита</p>
+                  </div>
+                  <div class="address__telephone">
+                    <p>+7 (3022) 217856</p>
+                    <p>+79294830255</p>
+                  </div>
+                  <div class="address__social">
+                    <img src="img/block6/viber.webp" alt="-" />
+                    <img src="img/block6/whatsapp.webp" alt="-" />
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </header>
+      <main>
+        <section class="head">
+          <div class="wrapper__head">
+            <div class="head__logo">
+              <h1>
+                <img
+                  id="img__mobile"
+                  src="img/logo/logo__corrected.webp"
+                  alt="-"
+                />
+                <img
+                  src="img/logo/newLogo.webp"
+                  alt="-"
+                  id="img__fullscreen"
+                  class="image-fullscreen"
+                />
+              </h1>
+            </div>
+            <div class="head__text">
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div class="head__book-btn">
+              <button class="book-btn" id="book-btn">Забронировать</button>
+            </div>
+            <div class="head__img">
+              <img src="img/main-illustration.webp" alt="-" />
+            </div>
+          </div>
+        </section>
+        <section class="hotel">
+          <h2>О гостинице</h2>
+          <p class="hotel__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <p class="hotel__text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+            aliquip ex ea commodo consequat.
+          </p>
+          <div class="hotel__image">
+            <img src="img/block2-main.webp" alt="-" />
+          </div>
+        </section>
+        <section class="offers">
+          <h2>Мы предлагаем</h2>
+          <div class="offers__icons">
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/WIFI.webp" alt="-" />
+              </div>
+              <h3>Бесплатный WI-FI</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/roundTheClock.webp" alt="-" />
+              </div>
+              <h3>Круглосуточный доступ</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/parking.webp" alt="-" />
+              </div>
+              <h3>Парковка</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/TV.webp" alt="-" />
+              </div>
+              <h3>Телевизор</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/cleaning.webp" alt="-" />
+              </div>
+              <h3>Влажная уборка</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/bath.webp" alt="-" />
+              </div>
+              <h3>Банно-прачечный комплекс</h3>
+              <div class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </div>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/kitchen.webp" alt="-" />
+              </div>
+              <h3>Собственная кухня</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/banquet.webp" alt="-" />
+              </div>
+              <h3>Банкетный зал</h3>
+              <div class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </div>
+            </div>
+            <div class="icon">
+              <div class="icon__image">
+                <img src="img/block3_icons/canteen.webp" alt="-" />
+              </div>
+              <h3>Просторная столовая</h3>
+              <p class="icon__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="rooms" class="rooms">
+          <h2>Наши номера</h2>
+          <div class="rooms__vars">
+            <div class="var">
+              <div class="var__image">
+                <img src="img/block4/singleRoom-icon .webp" alt="-" />
+              </div>
+              <h4>Одноместный номер</h4>
+              <ul class="var__list">
+                <li>Душ</li>
+                <li>Кровать</li>
+                <li>Телевизор</li>
+                <li>Wi-Fi</li>
+                <li>Что то еще</li>
+                <li>Что то еще</li>
+              </ul>
+              <div class="var__amount">
+                <p>Стоимость</p>
+                <p class="price">1000₽ / сутки</p>
+              </div>
+            </div>
+            <div class="var">
+              <div class="var__image var__image_double">
+                <img src="img/block4/doubleRoom-icon .webp" alt="-" />
+              </div>
+              <h4>Двухместный номер</h4>
+              <ul class="var__list">
+                <li>Душ</li>
+                <li>Кровать</li>
+                <li>Телевизор</li>
+                <li>Wi-Fi</li>
+                <li>Что то еще</li>
+                <li>Что то еще</li>
+              </ul>
+              <div class="var__amount">
+                <p>Стоимость</p>
+                <p class="price">2000₽ / сутки</p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="reviews">
+          <h2>Ваши отзывы</h2>
+          <div class="reviewers">
+            <div class="reviewer">
+              <div class="reviewer__image">
+                <img src="img/block5/user.webp" alt="-" />
+              </div>
+              <h5>Иван Иванов</h5>
+              <p class="reviewer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor.
+              </p>
+              <p class="reviewer__date">01.02 — 03.02</p>
+            </div>
+            <div class="reviewer">
+              <div class="reviewer__image">
+                <img src="img/block5/user.webp" alt="-" />
+              </div>
+              <h5>Иван Иванов</h5>
+              <p class="reviewer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor.
+              </p>
+              <p class="reviewer__date">01.02 — 03.02</p>
+            </div>
+            <div class="reviewer">
+              <div class="reviewer__image">
+                <img src="img/block5/user.webp" alt="-" />
+              </div>
+              <h5>Иван Иванов</h5>
+              <p class="reviewer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor.
+              </p>
+              <p class="reviewer__date">01.02 — 03.02</p>
+            </div>
+            <div class="reviewer">
+              <div class="reviewer__image">
+                <img src="img/block5/user.webp" alt="-" />
+              </div>
+              <h5>Иван Иванов</h5>
+              <p class="reviewer__text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor.
+              </p>
+              <p class="reviewer__date">01.02 — 03.02</p>
+            </div>
+          </div>
+        </section>
+        <section class="contacts">
+          <div class="contacts__map">
+            <img src="img/block6/map.webp" alt="-" />
+          </div>
+          <div class="contacts-info">
+            <h2>Контакты</h2>
+            <div class="address__main">
+              <p>Адрес:</p>
+              <p>Кайдаловская ул., 37, Чита</p>
+            </div>
+            <div class="address__telephone">
+              <p>+7 (3022) 217856</p>
+              <p>+79294830255</p>
+            </div>
+            <div class="address__social">
+              <img src="img/block6/viber.webp" alt="-" />
+              <img src="img/block6/whatsapp.webp" alt="-" />
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="footer__box">
+          <div class="box__logo">
+            <img src="img/logo/logo-black.webp" alt="-" />
+          </div>
+          <div class="box__contacts">
+            <p class="box__addTitle">Контакты</p>
+            <div class="address__main">
+              <p class="address__main_first">Адрес:</p>
+              <p>Кайдаловская ул., 37, Чита</p>
+            </div>
+            <div class="address__telephone">
+              <p>+7 (3022) 217856</p>
+              <p>+79294830255</p>
+            </div>
+            <div class="address__social">
+              <img src="img/block6/viber.webp" alt="-" />
+              <img src="img/block6/whatsapp.webp" alt="-" />
+            </div>
+          </div>
+          <div class="box__rights">
+            <p>© Все права защищены.</p>
+          </div>
+        </div>
+      </footer>
+    </div>
+    <script src="js/main.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="main.js" type="text/javascript"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  </body>
+</html>
